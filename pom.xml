@@ -21,16 +21,21 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>de.lightful.maven.drools</groupId>
-    <artifactId>project-parent</artifactId>
-    <version>0.0.16-SNAPSHOT</version>
+    <groupId>de.lightful.poms</groupId>
+    <artifactId>java-library</artifactId>
+    <version>1</version>
   </parent>
 
-  <groupId>de.lightful.maven.drools</groupId>
+  <groupId>de.lightful.maven.drools.plugin.itartifacts</groupId>
   <artifactId>person-fact-model</artifactId>
   <version>0.0.16-SNAPSHOT</version>
 
   <name>Maven Drools Support :: Plugin :: IT Artifacts :: Person Fact Model</name>
   <description>A Java fact model containing person-related information, used for integration testing</description>
+
+  <scm>
+    <connection>scm:git:git@github.com:maven-drools/it-artifacts.person-fact-model.git</connection>
+    <developerConnection>scm:git:git@github.com:maven-drools/it-artifacts.person-fact-model.git</developerConnection>
+  </scm>
 
 </project>
